@@ -1,0 +1,25 @@
+html,body{
+height:
+}
+.whole{
+  overflow: hidden;
+  background-color: blue;
+}
+.grid{
+  width: 25%;
+  padding-bottom: 25%;
+  background-color: aqua;
+  color:black;
+  position: relative;
+  float:right;
+
+}
+#inside{
+    background-color: black;
+    color: red;
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+  }
