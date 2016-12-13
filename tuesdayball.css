@@ -1,0 +1,14 @@
+
+.circle{
+  display: block;
+  background-color: #33cc00;
+  height: 100px;
+  width:100px;
+  border-radius: 50px;
+  margin: auto;
+  background: radial-gradient(circle at 40% 40%, #33cc00, #454545);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

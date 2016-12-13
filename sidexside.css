@@ -6,6 +6,7 @@ background-color: aqua;
 width: 50%;
 overflow: hidden;
 float: left;
+box-sizing: border-box;
 }
 .right{
 background-color: black;
@@ -13,4 +14,5 @@ color: #fff;
  width: 50%;
 float: right;
 overflow: hidden;
+box-sizing: border-box;
 }
