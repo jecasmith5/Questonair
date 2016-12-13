@@ -1,0 +1,16 @@
+
+
+
+.left{
+background-color: aqua;
+width: 50%;
+overflow: hidden;
+float: left;
+}
+.right{
+background-color: black;
+color: #fff;
+ width: 50%;
+float: right;
+overflow: hidden;
+}
