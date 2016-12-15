@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: grey;
+  color: black;
+  width: 100%;
+  margin: 0;
+}
+h1{
+  color: aqua;
+  text-align: right;
+  background-color: black;
+
+}
+.navlist{
+  list-style: none;
+  width: 15%;
+  float: left;
+  margin-top: 0%;
+  display: inline-block;
+
+
+}
+li{
+  border: 2px solid aqua;
+  font-family: cursive;
+  background-color: black;
+  color: aqua;
+}
+.main{
+background-color: aqua;
+float: right;
+width: 81%;
+display: inline-block;
+
+}
+.col1,.col2,.col3{
+  float: left;
+  border: 2px solid black;
+  width: 31%;
+  margin-right: 15px;
+  background-color: grey;
+  border-radius: 5px;
+
+}
+.col1{
+  margin-left: 15px;
+}
+.col2{
+}
+.col3{
+  margin-right: 0;
+}
+#footer{
+  position: absolute;
+  background-color: black;
+  color:aqua;
+  bottom: 0;
+  clear:both;
+  width:100%;
+  font-size: 32px;
+  text-align: right;
+}
