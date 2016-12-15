@@ -6,6 +6,7 @@ body{
   color: black;
   width: 100%;
   margin: 0;
+  box-sizing: border-box;
 }
 h1{
   color: aqua;
@@ -31,14 +32,15 @@ li{
 .main{
 background-color: aqua;
 float: right;
-width: 81%;
-display: inline-block;
+width: 73%;
+box-sizing: border-box;
+
 
 }
 .col1,.col2,.col3{
   float: left;
   border: 2px solid black;
-  width: 31%;
+  width: 26%;
   margin-right: 15px;
   background-color: grey;
   border-radius: 5px;
@@ -51,14 +53,14 @@ display: inline-block;
 }
 .col3{
   margin-right: 0;
+
 }
 #footer{
-  position: absolute;
   background-color: black;
   color:aqua;
-  bottom: 0;
   clear:both;
   width:100%;
   font-size: 32px;
   text-align: right;
+  margin-top: -12px;
 }
