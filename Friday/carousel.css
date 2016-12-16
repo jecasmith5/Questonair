@@ -1,0 +1,61 @@
+@keyframes slide {
+  0% {
+    transform: translate(0px);
+  }
+  10%{
+    transform: translate(0px)rotate(50deg);
+
+  }
+  33%{
+    transform: translate(-400px);
+  }
+  43%{
+    transform: translate(-400px)rotate(-50deg);
+
+  }
+  66%{
+    transform: translate(-800px);
+  }
+  76%{
+    transform: translate(-800px);
+  }
+  100%{
+    transform: translate(0px);
+
+  }
+}
+body{
+  background-color: grey;
+}
+.wrapper{
+  box-sizing: border-box;
+  width:1300px;
+  float: left;
+  background-color: black;
+}
+.car{
+  width:400px;
+  height: 400px;
+  overflow: hidden;
+}
+.img{
+  height:400px;
+  width:400px;
+  background-color: black;
+  background-size: cover;
+  margin: 0px;
+  display: inline-block;
+  animation: slide 30s ease-in infinite;
+
+}
+.img1{
+  background-image: url("img11.jpeg");
+
+}
+.img2{
+  background-image: url("img22.jpeg");
+
+}
+.img3{
+  background-image: url("img33.jpeg");
+}
