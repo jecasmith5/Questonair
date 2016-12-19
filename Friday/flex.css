@@ -1,0 +1,14 @@
+body{background-color: grey;
+
+}
+.content{
+display: flex;
+
+}
+
+.row1{
+flex-flow: row;
+}
+.nav{
+  flex-flow: column;
+}
